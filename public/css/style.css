@@ -1,0 +1,250 @@
+
+.btn-info {
+	background-color: #1EB7AF;
+}
+
+.divider {
+	width: 10%;
+	height: 2.5px;
+	opacity: 50%;
+	border-radius: 20px;
+	background-color: #1EB7AF;
+}
+
+.container-image {
+	position: relative;
+	width: 65%;
+	/* Adjust as needed */
+	height: 30rem;
+	/* Adjust as needed */
+}
+
+
+.container-image::before {
+	content: '';
+	position: absolute;
+	width: 50%;
+	height: 35%;
+	border-bottom: 10px solid #1EB7AF;
+	border-right: 10px solid #1EB7AF;
+	bottom: -20px;
+	right: -20px;
+	z-index: 10;
+}
+
+.container-image::after {
+	content: '';
+	position: absolute;
+	width: 50%;
+	height: 35%;
+	border-top: 10px solid #1EB7AF;
+	border-left: 10px solid #1EB7AF;
+	top: -20px;
+	left: -20px;
+}
+
+.images {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+.scrolled {
+	background-color: #333;
+	/* Change to your desired color */
+	color: black;
+	transition: background-color 200ms linear;
+}
+
+.active>.page-link {
+	background-color: #1EB7AF;
+	color: white !important;
+}
+
+.checkbox {
+	opacity: 0;
+	position: absolute;
+}
+
+.label {
+	border-radius: 50px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 5px;
+	position: relative;
+	height: 26px;
+	width: 50px;
+	border: white solid 1px;
+	transform: scale(1.5);
+}
+
+.label .ball {
+	background-color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	left: 2px;
+	height: 22px;
+	width: 22px;
+	transform: translateX(0px);
+	transition: transform 0.2s linear;
+}
+
+.checkbox:checked+.label .ball {
+	transform: translateX(22px);
+}
+
+	.btn-info {
+		background-color: #1EB7AF;
+	}
+
+	.divider {
+		width: 10%;
+		height: 2.5px;
+		opacity: 50%;
+		border-radius: 20px;
+		background-color: #1EB7AF;
+	}
+
+	.container-image {
+		position: relative;
+		width: 65%;
+		/* Adjust as needed */
+		height: 30rem;
+		/* Adjust as needed */
+	}
+	
+
+	.container-image::before {
+		content: '';
+		position: absolute;
+		width: 50%;
+		height: 35%;
+		border-bottom: 10px solid #1EB7AF;
+		border-right: 10px solid #1EB7AF;
+		bottom: -20px;
+		right: -20px;
+		z-index: 10;
+	}
+
+	.container-image::after {
+		content: '';
+		position: absolute;
+		width: 50%;
+		height: 35%;
+		border-top: 10px solid #1EB7AF;
+		border-left: 10px solid #1EB7AF;
+		top: -20px;
+		left: -20px;
+	}
+
+	.images {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+	}
+
+	.scrolled {
+		background-color: #333;
+		/* Change to your desired color */
+		color: black;
+		transition: background-color 200ms linear;
+	}
+	.active>.page-link{
+		background-color: #1EB7AF;
+		color: white!important;
+	}
+
+		.btn-info {
+		background-color: #1EB7AF;
+	}
+
+	.divider {
+		width: 10%;
+		height: 2.5px;
+		opacity: 50%;
+		border-radius: 20px;
+		background-color: #1EB7AF;
+	}
+
+	.container-image {
+		position: relative;
+		width: 65%;
+		/* Adjust as needed */
+		height: 30rem;
+		/* Adjust as needed */
+	}
+	
+
+	.container-image::before {
+		content: '';
+		position: absolute;
+		width: 50%;
+		height: 35%;
+		border-bottom: 10px solid #1EB7AF;
+		border-right: 10px solid #1EB7AF;
+		bottom: -20px;
+		right: -20px;
+		z-index: 10;
+	}
+
+	.container-image::after {
+		content: '';
+		position: absolute;
+		width: 50%;
+		height: 35%;
+		border-top: 10px solid #1EB7AF;
+		border-left: 10px solid #1EB7AF;
+		top: -20px;
+		left: -20px;
+	}
+
+	.images {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+	}
+
+	.scrolled {
+		background-color: #333;
+		/* Change to your desired color */
+		color: black;
+		transition: background-color 200ms linear;
+	}
+	.active>.page-link{
+		background-color: #1EB7AF;
+		color: white!important;
+	}
+
+	.container-image2 {
+		position: relative;
+		width: 70%;
+		height: 30rem;
+	}
+
+	.bg-us {
+		background-color: #1EB7AF;
+	}
+
+	
+	.carousel-caption {
+		width: 30vw;
+		bottom: 30vh;
+		text-align: start;
+	}
+	.table {
+		border-collapse: separate;
+		border-spacing: 0 15px;
+		margin-bottom: 0;
+	}
+
+	.toast-top-right {
+        top: 90px;
+    }
